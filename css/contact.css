@@ -1,0 +1,60 @@
+.contact-panel{
+	
+}
+
+.contact-map img{
+	width: 100%;
+}
+.contact-map .map-sm{
+	display: block;
+}
+.contact-map .map-lg{
+	display: none;
+}
+.contact-content{
+	padding: 50px 0 10px;
+}
+.contact-panel .itemrq{
+	display: block;
+	text-align: left;
+	padding-left: 20px;
+}
+.contact-content .itemrq p{
+	display: inline-block;
+	text-indent: 30px;
+	-webkit-background-size: 20px 20px;
+	background-size: 20px 20px;
+}
+.contact-panel .address{
+	background: url(../image/ico_addr.jpg) no-repeat;
+}
+.contact-panel .phone{
+	background: url(../image/ico_phone.jpg) no-repeat;
+}
+.contact-panel .email{
+	background: url(../image/ico_email.jpg) no-repeat;
+}
+@media only screen and (min-width: 768px) {
+	.contact-map .map-sm{
+		display: none;
+	}
+	.contact-map .map-lg{
+		display: block;
+	}
+	.contact-panel .itemrq{
+		display: inline-block;
+		text-align: center;
+		padding-left: 0;
+	}
+	.contact-content .itemrq p{
+		display: inline-block;
+		height: 30px;
+		line-height: 30px;
+		-webkit-background-size: 30px 30px;
+		background-size: 30px 30px;
+	}
+	.contact-panel .phone{
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+}

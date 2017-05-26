@@ -1,0 +1,175 @@
+html{  
+    scrollbar-face-color:#C2C2C2; /*滑块*/  
+    scrollbar-arrow-color:#FFFFFF; /*箭头*/  
+    scrollbar-3dlight-color:#FFFFFF; /*最外左*/  
+    scrollbar-highlight-color:#FFFFFF; /*左二*/  
+    scrollbar-shadow-color:#FFFFFF; /*右二*/  
+    scrollbar-darkshadow-color:#FFFFFF; /*最外右*/  
+    scrollbar-track-color:#FFFFFF; /*滑道*/  
+}  
+
+::-webkit-scrollbar-track-piece {
+    background-color:#fff
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #c2c2c2;
+    background-clip: padding-box;
+    min-height: 28px
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #a0a0a0
+}
+
+
+
+
+
+
+
+
+.meige-type{
+    margin:20px 0;
+    padding: 8px 20px;
+    line-height: 1.2;
+    font-size: 20px;
+}
+.meige-type:before{
+	content: " ";
+    display: block;
+    position: absolute;
+    left: 10px;
+    top: 32px;
+    width: 6px;
+    height: 42px;
+    background: #009B4B;
+}
+
+
+
+
+
+.product-model {
+    margin-top: 15px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.product-img img{
+	display: block;
+	height: auto;
+	margin: 0 auto;
+}
+
+.product-img.pro_type01 img,.product-img.pro_type02 img{
+	width: 200px;
+	height: auto;
+}
+.product-img.pro_type03 img{
+	width: 200px;
+	height: auto;
+}
+.product-img.pro_type04 img,.product-img.pro_type05 img{
+	width: 200px;
+	height: auto;
+	margin: 30px auto;
+}
+@media only screen and (min-width: 1200px) {
+	.product-img.pro_type01 img,.product-img.pro_type02 img{
+		width: auto;
+		height: 350px;
+		text-align: center;
+	}
+	.product-img.pro_type03 img{
+		width: 280px;
+		height: auto;
+	}
+	.product-img.pro_type04 img,.product-img.pro_type05 img{
+		width: 280px;
+		height: auto;
+		margin: 30px auto;
+	}
+}
+
+
+.products-list .parmbox .col-xs-12.col-sm-4.col-md-4{
+	margin-top: 30px;
+}
+.products-list p.star{
+	background: url(../image/icon-star.jpg) no-repeat;
+    background-position: 0 0;
+    padding-left: 36px;
+    line-height: 1.6;
+    margin-bottom: 24px
+}
+.products-list p.param-icon{
+	background: url(../image/icon-lvwang.jpg) no-repeat;
+    background-position: 0 6px;
+    padding-left: 36px;
+    line-height: 30px;
+}
+.pro-detail{
+	overflow: hidden;
+}
+@media only screen and (min-width:1200px ) {
+	.pro-detail{
+		padding-left: 80px;
+	}
+}
+.pro-detail ul li{
+	list-style: none;
+}
+
+.pro-detail p.pro-detail-title {
+    font-size: 18px;
+    font-weight: 700;
+}
+.pro-detail p.pro-detail-type {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 15px 0;
+}
+.pro-detail p.pro-detail-type span{
+	display: inline-block;
+    padding: 0 15px;
+    margin-right: 10px;
+    background: #009B4B;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+.pro-detail ul {
+    padding: 0;
+    margin: 0;
+}
+.pro-detail ul li {
+    list-style: none;
+   	padding: 7px 0;
+    width: 260px;
+}
+.pro-detail li span {
+	position: relative;
+    display: inline-block;
+    width: 90px;
+    left: 28px;
+}
+.pro-detail ul li:nth-child(odd) {
+    background: #94f1c0;
+}
+.pro-detail ul li:nth-child(even) {
+    background: #ccf4df;
+}
+.pro-detail .letter2font{
+	letter-spacing: 27px;
+}
+.pro-detail .letter3font{
+	letter-spacing: 8px;
+}
+span.fontwei{
+	font-weight: 700;
+}

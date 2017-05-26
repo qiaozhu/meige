@@ -1,0 +1,9 @@
+.technology-panel img{
+    width: 100%;
+}
+.bowen-bg{
+    padding-left: 25px;
+    padding-top:30px;
+    padding-bottom: 30px; 
+    background: url('../image/bowen-bg.jpg');
+}

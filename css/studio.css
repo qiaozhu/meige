@@ -1,0 +1,69 @@
+.studio-left {
+    background: #009B4B;
+    color: #FFF;
+    padding: 20px;
+}
+.studio-right {
+    padding: 30px 20px;
+    background: url(../image/bowen-bg.jpg);
+}
+@media only screen and (min-width: 768px) {
+	.studio-left {
+	    height: 210px;
+	}
+    .studio-right{
+        height: 210px;
+    }
+    .studio-left .font-size16{
+        margin-top: 50px;
+    }
+	
+}
+@media only screen and (min-width: 768px) {
+	.studio-left {
+	    height: 250px;
+        padding-left: 40px;
+	}
+    .studio-right{
+        height: 250px;
+        padding-top: 50px;
+    }
+    .studio-left .font-size16{
+        margin-top: 70px;
+    }
+	
+}
+.bgicon-3spot {
+    margin-bottom: 20px;
+    padding-left: 30px;
+    height: 30px;
+    line-height: 30px;
+    background: url(../image/spot.jpg) no-repeat;
+}
+.jiance-bg1{
+    background: url(../image/jiance1-bg.jpg) no-repeat;
+    background-size: cover;
+}
+.jiance-bg2{
+    background: url(../image/jiance2-bg.jpg) no-repeat;
+    background-size: cover;
+}
+.jiance-bg3{
+    background: url(../image/jiance3-bg.jpg) no-repeat;
+    background-size: cover;
+}
+.jiance-title {
+    height: 50px;
+    line-height: 50px;
+    background: url(../image/bowen-bg.jpg);
+    color: #009B4B;
+    font-size: 16px;
+    padding-left: 10px;
+    margin-top: 30px;
+}
+.jiance-textbg {
+    padding: 20px;
+    background: rgba(0,0,0,.1);
+    color: #009B4B;
+    line-height: 25px;
+}

@@ -1,0 +1,329 @@
+body{
+	font-family: "microsoft yahei";
+}
+
+.header-full{
+	width: 100%;
+	background: #F2F2F2;
+}
+
+
+.overlay-box{
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+	background: #F2F2F2;
+}
+.overlay-box .container{
+	margin: 0 auto;
+	/*padding: 0;*/
+}
+@media only screen and (max-width: 767px) {
+	.overlay-box .container{
+		padding: 0;
+	}
+}
+.overlay-box .container img{
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+
+
+
+.aboutus-panel{
+	/*margin-top: 60px;*/
+}
+
+.aboutus-panel .row{
+	margin: 30px 0;
+}
+.aboutus-panel .row .imgitem{
+	text-align: right;
+	padding: 0;
+}
+.aboutus-panel .row .imgitem img{
+	width: 100%;
+}
+.aboutus-panel p{
+	line-height: 24px;
+}
+.aboutus-panel p.h1title {
+	margin-top: 20px;
+    font-size: 24px;
+}
+.aboutus-panel p.h2green {
+    font-size: 20px;
+    color: #049b4b;
+}
+.aboutus-panel .home-margin {
+    margin-top: 40px;
+}
+.aboutus-panel p.greenline {
+    width: 30px;
+    height: 2px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background: #009b4b;
+}
+
+
+@media only screen and (min-width: 768px) {
+	.aboutus-panel{
+		margin-top: 60px;
+	}
+	.aboutus-panel .home-margin{
+		margin-top: 30px;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	.aboutus-panel .home-margin{
+		margin-top: 40px;
+	}
+	.aboutus-panel .jieshao-margin1{
+		margin-top: 15px;
+	}
+	.aboutus-panel .jieshao-margin2{
+		margin-top: 40px;
+	}
+}
+@media only screen and (min-width: 1200px) {
+	.aboutus-panel p.h1title {
+		margin-top: 30px;
+	    font-size: 24px;
+	}
+	.aboutus-panel .home-margin{
+		margin-top: 50px;
+	}
+	.aboutus-panel .jieshao-margin1{
+		margin-top: 25px;
+	}
+	.aboutus-panel .jieshao-margin2{
+		margin-top: 50px;
+	}
+}
+
+
+
+
+
+.product-panel{
+	width: 100%;
+	background: #FAFAFA;
+}
+.product-panel .product-header{
+	margin: 0;
+    padding: 8px 10px;
+    line-height: 1.6;
+    font-size: 24px;
+}
+.product-panel .product-header:before{
+	content: " ";
+    display: inline-block;
+    position: relative;
+    left: 0;
+    top: 5px;
+    width: 3px;
+    height: 26px;
+    margin-right: 15px;
+    background: #009B4B;
+}
+.product-panel .product-headerimg {
+    width: 100%;
+    height: 150px;
+	background: url(../image/productbg.jpg) no-repeat;
+	background-position: top center;
+	background-size: cover;
+}
+
+@media only screen and (min-width: 768px) {
+	.product-panel{
+		margin-top: 60px;
+	}
+	.product-panel .product-headerimg {
+		height: 250px;
+	}
+}
+@media only screen and (min-width: 992px) {
+	.product-panel .product-headerimg {
+		height: 300px;
+	}
+}
+@media only screen and (min-width: 1200px) {
+	.product-panel .product-headerimg {
+		height: 370px;
+	}
+}
+
+
+.product-list {
+    margin-top: 80px;
+}
+
+.product-img img{
+	display: block;
+	height: auto;
+	margin: 0 auto;
+}
+.product-img.qingxin01_box img{
+	width: 200px;
+	height: auto;
+}
+.product-img.qingxin07_box img{
+	width: 280px;
+	height: auto;
+	margin-top: 0;
+}
+.product-img.zhiyu01_box img{
+	width: 200px;
+	height: auto;
+}
+
+.product-title-green {
+    color: #049b4b;
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+}
+.product-title {
+    font-size: 16px;
+    padding-top: 8px;
+    text-align: center;
+}
+.product-type {
+    margin-top: 30px;
+    text-align: center;
+}
+.product-list p.greenline {
+    width: 30px;
+    height: 2px;
+    margin: 20px auto 80px;
+    background: #009b4b;
+    text-align: center;
+}
+@media only screen and (min-width: 768px) {
+
+	.product-img.qingxin01_box img{
+		width: 160px;
+		height: auto;
+	}
+	.product-img.qingxin07_box img{
+		width: 200px;
+		height: auto;
+		margin-top: 50px;
+		margin-bottom: 75px;
+	}
+	.product-img.zhiyu01_box img{
+		width: 160px;
+		height: auto;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	.product-img{
+		height: 350px;
+		text-align: center;
+	}
+	.product-img.qingxin01_box img{
+		width: 280px;
+		height: auto;
+	}
+	.product-img.qingxin07_box img{
+		width: 350px;
+		height: auto;
+		margin: 0 auto;
+		margin-top: 50px;
+	}
+	.product-img.zhiyu01_box img{
+		width: 280px;
+		height: auto;
+	}
+}
+
+
+
+
+
+
+.advantage-panel{
+	
+}
+.advantage-img img{
+	width:100%;
+	height: auto;
+}
+.advantage-panel p{
+	line-height: 24px;
+}
+.advantage-title {
+    font-size: 20px;
+    margin-top: 25px;
+}
+.advantage-panel .greenline {
+    width: 30px;
+    height: 2px;
+    margin-top: 20px;
+    background: #009b4b;
+}
+.advantage-panel .advantage-owertext {
+    margin-top: 30px;
+}
+.green-item{
+	background: #009B4B;
+	color: #FFFFFF;
+}
+
+@media only screen and (min-width: 768px) {
+	.advantage-panel{
+		margin-top: 60px;
+	}
+	.advantage-img img{
+		width: 100%;
+		height: auto;
+		margin-top: 30px;
+	}
+}
+
+
+
+
+
+.advantage-list{
+	margin-top: 60px;
+}
+.advantage-item{
+    background: #F5F5F5;
+    padding: 30px;
+}
+@media only screen and (min-width: 768px) {
+	.advantage-item{
+		height: 220px;
+	}
+}
+.advantage-name{
+	font-size: 16px;
+}
+
+.advantage-greenline{
+	width: 30px;
+    height: 2px;
+    margin: 10px 0 20px;
+    background: #FFFFFF;
+}
+
+
+.advantage-item.green-item{
+	background: #009B4B;
+	color: #FFFFFF;
+}
+.advantage-item.green-item .greenline{
+	background: #FFFFFF;
+}
+
+
+
+
+
